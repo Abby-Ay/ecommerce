@@ -1,0 +1,76 @@
+.page-header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/photo-1445205170230-053b83016050.jfif')
+}
+
+.navbar{
+    color: #fff !important;
+    background: inherit
+}
+
+.btn-default{
+    background-color: rgb(75, 75, 75);
+    color: #fff;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.nav-item{
+    color: rgba(255,255,255,0.9) !important;  
+    font-family: monospace;
+}
+
+.logo{
+    background: url('assets/58071604-vector-logo-clothing-illustration-dress-on-a-hanger.jpg');
+}
+
+.nav-brand{
+    color: #fff !important;
+    font-family: monospace;
+}
+
+.head-text{
+    height: calc(100vh - 56px);
+    font-family: Courier, 'Arial Narrow', Arial, sans-serif;
+    flex-direction: column;
+    color: rgba(255,255,255,0.9)
+}
+.nav-img{
+    height: 4em !important;
+}
+.style{
+    /* font-family: Freestyle Script; */
+    font-family: 'Courier New', Courier, monospace
+}
+.large-font{
+    font-size: 3em;
+}
+.left{
+    animation: slideFromLeft 1.6s ease-out 0s 1 both;
+}
+.right{
+    animation: slideFromRight 1.6s ease-out 0s 1 both;
+}
+
+@keyframes slideFromLeft{
+    0%{
+        transform: translateX(-150%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+@keyframes slideFromRight{
+    0%{
+        transform: translateX(150%);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
